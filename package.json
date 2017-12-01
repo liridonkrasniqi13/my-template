@@ -1,0 +1,25 @@
+{
+  "name": "my-template",
+  "version": "1.0.0",
+  "description": "Liridon Krasniqi Template",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/main.scss:css/style.css",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liridonkrasniqi13/my-template.git"
+  },
+  "author": "Liridon Krasniqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liridonkrasniqi13/my-template/issues"
+  },
+  "homepage": "https://github.com/liridonkrasniqi13/my-template#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2"
+  }
+}
