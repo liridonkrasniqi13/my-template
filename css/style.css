@@ -3,19 +3,40 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 html {
   font-size: 62.5%;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+}
 
 body {
   box-sizing: border-box;
-  background: #0f0c29;
+}
+
+/* home css */
+.hero {
+  background-image: url("../../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  height: 95vh;
+}
+
+.shadow {
+  filter: drop-shadow(0px 7px 5px rgba(0, 0, 0, 0.4));
+}
+
+.hero-2 {
+  background: #abbaab;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  background: linear-gradient(to right, #ffffff, #abbaab);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 95vh;
+  margin-top: -15rem;
+}
 
 /*# sourceMappingURL=style.css.map */
