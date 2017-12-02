@@ -1,3 +1,20 @@
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  position: relative;
+  border: none;
+  cursor: pointer;
+}
+.btn--white {
+  background-color: #fff;
+  color: #333;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
 *,
 *::after,
 *::before {
@@ -15,17 +32,47 @@ body {
   box-sizing: border-box;
 }
 
+.margin-top-big {
+  margin-top: 8rem;
+}
+
 /* home css */
-.hero {
-  background-image: url("../../img/hero.jpg");
+.hero1__hero {
+  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("../../img/hero.jpg");
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   height: 95vh;
+  position: relative;
 }
-
-.shadow {
+.hero1__shadow {
   filter: drop-shadow(0px 7px 5px rgba(0, 0, 0, 0.4));
+}
+.hero1__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.hero1__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero1__heading-primary--main {
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  font-size: 10rem;
+  color: #fff;
+}
+.hero1__heading-primary--sub {
+  display: block;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.40rem;
 }
 
 .hero-2 {
