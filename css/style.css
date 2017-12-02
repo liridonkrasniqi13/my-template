@@ -82,7 +82,7 @@
 }
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
-  color: #55c57a;
+  color: #333;
   transform: translateX(1rem);
 }
 .navigation__checkbox:checked ~ .navigation__background {
@@ -155,7 +155,7 @@ body {
 
 /* home css */
 .hero1__hero {
-  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("../../img/hero.jpg");
+  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("..//img/hero.jpg");
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
