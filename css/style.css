@@ -15,6 +15,218 @@
   font-weight: 700;
 }
 
+/* Heros are here */
+/* Hero Home - 01 start here 1 */
+.hero1__hero {
+  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("..//img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  height: 100vh;
+  position: relative;
+}
+.hero1__shadow {
+  filter: drop-shadow(0px 7px 5px rgba(0, 0, 0, 0.4));
+}
+.hero1__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.hero1__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero1__heading-primary--main {
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  font-size: 10rem;
+  color: #fff;
+}
+.hero1__heading-primary--sub {
+  display: block;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.40rem;
+}
+
+/* Heros end here */
+/* Introductions start here */
+.introduction {
+  margin-top: -20rem;
+  background: #999;
+  background: -webkit-linear-gradient(to right, #fff, #999);
+  background: linear-gradient(to right, #fff, #999);
+  padding: 20rem 0;
+}
+
+.enjoy-css {
+  text-align: center;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  border: none;
+  font: normal 72px/normal "Passero One", Helvetica, sans-serif;
+  color: #333333;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.0980392), 0 0 5px rgba(0, 0, 0, 0.0980392), 0 1px 3px rgba(0, 0, 0, 0.298039), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.247059), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.14902);
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.enjoy-css:hover {
+  color: #777777;
+  text-shadow: 0 1px 0 white, 0 2px 0 white, 0 3px 0 white, 0 4px 0 white, 0 5px 0 white, 0 6px 1px rgba(0, 0, 0, 0.0980392), 0 0 5px rgba(0, 0, 0, 0.0980392), 0 1px 3px rgba(0, 0, 0, 0.298039), 0 3px 5px rgba(0, 0, 0, 0.2), 0 -5px 10px rgba(0, 0, 0, 0.247059), 0 -7px 10px rgba(0, 0, 0, 0.2), 0 -15px 20px rgba(0, 0, 0, 0.14902);
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+.into__image {
+  width: 100%;
+}
+
+.intro__2 {
+  padding-top: 10rem;
+}
+.intro__2-text {
+  font-size: 3rem;
+}
+
+.some__text {
+  font-size: 1.6rem;
+  padding-top: 3rem;
+}
+
+/* Introductions ends here */
+/* Introductions start here */
+.our-work {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("https://cdn.pixabay.com/photo/2017/08/04/20/04/camping-2581242_640.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: -10rem;
+  transform: skewY(-7deg);
+}
+.our-work > * {
+  transform: skewY(7deg);
+}
+
+.card {
+  width: 100%;
+}
+.card .wrapper {
+  background-color: #fff;
+  min-height: 540px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+.card .wrapper:hover .data {
+  transform: translateY(0);
+}
+.card .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.7), rgba(51, 51, 51, 0.7));
+  transform: translateY(calc(70px + 1em));
+  transition: transform 0.3s;
+}
+.card .data .content {
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+}
+.card .author {
+  font-size: 1.6rem;
+}
+.card .title {
+  margin-top: 10px;
+}
+.card .text {
+  font-size: 1.6rem;
+  height: 70px;
+  margin: 0;
+}
+
+.example-2 .wrapper-1 {
+  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("https://cdn.pixabay.com/photo/2017/11/23/10/08/the-three-peaks-of-lavaredo-2972497_640.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.example-2 .wrapper-2 {
+  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("https://cdn.pixabay.com/photo/2017/03/07/14/19/landscape-2124113_640.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.example-2 .wrapper-3 {
+  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("https://cdn.pixabay.com/photo/2017/11/16/17/24/pragser-wildsee-2955236_640.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.example-2 .header {
+  color: #fff;
+  padding: 1em;
+}
+.example-2 .header::before, .example-2 .header::after {
+  content: '';
+  display: table;
+}
+.example-2 .header::after {
+  clear: both;
+}
+.example-2 .header .date {
+  float: left;
+  font-size: 12px;
+}
+.example-2 .data {
+  color: #fff;
+  transform: translateY(calc(70px + 4em));
+}
+.example-2 .title a {
+  color: #fff;
+}
+.example-2 .button {
+  display: block;
+  width: 100px;
+  margin: 2em auto 1em;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1;
+  position: relative;
+  font-weight: 700;
+}
+.example-2 .button::after {
+  content: '\2192';
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.3s;
+}
+.example-2 .button:hover::after {
+  transform: translate(5px, -50%);
+  opacity: 1;
+}
+
+/* Introductions ends here */
 .row {
   max-width: 114rem;
   margin: 0 auto;
@@ -186,6 +398,10 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .text-center {
   text-align: center !important;
 }
@@ -195,257 +411,15 @@ body {
 }
 
 /* home css */
-.hero1__hero {
-  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("..//img/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  height: 100vh;
-  position: relative;
-}
-.hero1__shadow {
-  filter: drop-shadow(0px 7px 5px rgba(0, 0, 0, 0.4));
-}
-.hero1__logo-box {
-  position: absolute;
-  top: 4rem;
-  left: 4rem;
-}
-.hero1__text-box {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.hero1__heading-primary--main {
-  text-transform: uppercase;
-  text-align: center;
-  display: block;
-  font-size: 10rem;
-  color: #fff;
-}
-.hero1__heading-primary--sub {
-  display: block;
-  color: #fff;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 1.40rem;
-}
-
-.introduction {
-  margin-top: -20rem;
-  background: #abbaab;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #abbaab);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 20rem 0;
-}
-
-.enjoy-css {
-  text-align: center;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  cursor: pointer;
-  border: none;
-  font: normal 72px/normal "Passero One", Helvetica, sans-serif;
-  color: #333333;
-  text-align: center;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.0980392), 0 0 5px rgba(0, 0, 0, 0.0980392), 0 1px 3px rgba(0, 0, 0, 0.298039), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.247059), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.14902);
-  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
-  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
-  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
-  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
-}
-
-.enjoy-css:hover {
-  color: #777777;
-  text-shadow: 0 1px 0 white, 0 2px 0 white, 0 3px 0 white, 0 4px 0 white, 0 5px 0 white, 0 6px 1px rgba(0, 0, 0, 0.0980392), 0 0 5px rgba(0, 0, 0, 0.0980392), 0 1px 3px rgba(0, 0, 0, 0.298039), 0 3px 5px rgba(0, 0, 0, 0.2), 0 -5px 10px rgba(0, 0, 0, 0.247059), 0 -7px 10px rgba(0, 0, 0, 0.2), 0 -15px 20px rgba(0, 0, 0, 0.14902);
-  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
-  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
-  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
-  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
-}
-
-.into__image {
-  width: 100%;
-}
-
-.intro__2 {
-  padding-top: 10rem;
-}
-.intro__2-text {
-  font-size: 3rem;
-}
-
-.some__text {
-  font-size: 1.6rem;
-  padding-top: 3rem;
-}
-
-.our-work {
-  padding: 15rem 0;
-  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("https://cdn.pixabay.com/photo/2017/08/04/20/04/camping-2581242_640.jpg");
-  background-size: cover;
-  background-position: center;
-  margin-top: -10rem;
-  transform: skewY(-7deg);
-}
-.our-work > * {
-  transform: skewY(7deg);
-}
-
-.our-work__img {
-  width: 100%;
-}
-
-.home-1__card {
-  background: #abbaab;
-  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
-  background: linear-gradient(to right, #ffffff, #abbaab);
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  border: 2px solid #999;
-  padding: .5rem;
-}
-.home-1__card__img {
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  border: 0px solid #000000;
-  width: 100%;
-}
-.home-1__card-text-main {
-  padding: 1rem;
-  font-size: 1.8rem;
-}
-.home-1__card-some-text {
-  padding-bottom: 1rem;
-  font-size: 1.4rem;
-}
-
 .home-1__pricing {
   margin-top: -10rem;
-  background: #abbaab;
+  background: #999;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #abbaab, #ffffff);
+  background: -webkit-linear-gradient(to right, #999, #fff);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #abbaab, #ffffff);
+  background: linear-gradient(to right, #999, #fff);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
-}
-
-a {
-  text-decoration: none;
-}
-
-.card {
-  width: 100%;
-}
-.card .wrapper {
-  background-color: #fff;
-  min-height: 540px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-}
-.card .wrapper:hover .data {
-  transform: translateY(0);
-}
-.card .data {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.7), rgba(51, 51, 51, 0.7));
-  transform: translateY(calc(70px + 1em));
-  transition: transform 0.3s;
-}
-.card .data .content {
-  padding: 1em;
-  position: relative;
-  z-index: 1;
-}
-.card .author {
-  font-size: 1.6rem;
-}
-.card .title {
-  margin-top: 10px;
-}
-.card .text {
-  font-size: 1.6rem;
-  height: 70px;
-  margin: 0;
-}
-
-.example-2 .wrapper-1 {
-  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("https://cdn.pixabay.com/photo/2017/11/23/10/08/the-three-peaks-of-lavaredo-2972497_640.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.example-2 .wrapper-2 {
-  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("https://cdn.pixabay.com/photo/2017/03/07/14/19/landscape-2124113_640.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.example-2 .wrapper-3 {
-  background-image: linear-gradient(to right top, rgba(119, 119, 119, 0.6), rgba(51, 51, 51, 0.6)), url("https://cdn.pixabay.com/photo/2017/11/16/17/24/pragser-wildsee-2955236_640.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.example-2 .header {
-  color: #fff;
-  padding: 1em;
-}
-.example-2 .header::before, .example-2 .header::after {
-  content: '';
-  display: table;
-}
-.example-2 .header::after {
-  clear: both;
-}
-.example-2 .header .date {
-  float: left;
-  font-size: 12px;
-}
-.example-2 .data {
-  color: #fff;
-  transform: translateY(calc(70px + 4em));
-}
-.example-2 .title a {
-  color: #fff;
-}
-.example-2 .button {
-  display: block;
-  width: 100px;
-  margin: 2em auto 1em;
-  text-align: center;
-  font-size: 12px;
-  color: #fff;
-  line-height: 1;
-  position: relative;
-  font-weight: 700;
-}
-.example-2 .button::after {
-  content: '\2192';
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translate(0, -50%);
-  transition: all 0.3s;
-}
-.example-2 .button:hover::after {
-  transform: translate(5px, -50%);
-  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
