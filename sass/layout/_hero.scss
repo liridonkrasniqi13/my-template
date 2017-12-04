@@ -1,0 +1,50 @@
+/* Hero Home - 01 start here 1 */ 
+.hero1 {
+  &__hero {
+    background-image:linear-gradient(
+        to right top,
+        rgba($color-grey-dark, 0.6),
+        rgba($color-grey-dark-3, 0.6)),
+        url("..//img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    height: 100vh;
+    position: relative;
+  }
+
+  // shadow for the home-1 hero 
+  &__shadow {
+    filter: drop-shadow(0px 7px 5px rgba(0,0,0,0.4))
+  }
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__heading-primary--main {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: 10rem;
+    color: $white;
+  }
+  
+  &__heading-primary--sub {
+    display: block;
+    color: $white;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.40rem;
+  }
+}
